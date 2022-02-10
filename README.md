@@ -1,2 +1,0 @@
-# Coupons
-Coupons Project
