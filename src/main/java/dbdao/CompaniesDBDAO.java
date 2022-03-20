@@ -1,13 +1,13 @@
 package dbdao;
 
-import utils.DBTools;
+import beans.Company;
+import dao.CompaniesDAO;
+import db.db_manager.DBManagerCompanies;
 import exceptions.Action;
 import exceptions.DBDAOException;
 import exceptions.NotExistException;
 import login.ClientType;
-import beans.Company;
-import dao.CompaniesDAO;
-import db.db_manager.DBManagerCompanies;
+import utils.DBTools;
 
 import java.sql.ResultSet;
 import java.util.ArrayList;

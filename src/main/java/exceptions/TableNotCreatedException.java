@@ -26,7 +26,7 @@ public class TableNotCreatedException extends Exception {
      * @param table  The specific table enum
      * @param action The specific action that failed
      */
-    public TableNotCreatedException(exceptions.SQLTables table, exceptions.Action action) {
+    public TableNotCreatedException(SQLTables table, Action action) {
         super(PrintColors.RED_BOLD + "Failed to " + action.toString() + " " + table.getMESSAGE() + PrintColors.ANSI_RESET);
     }
 
@@ -37,7 +37,7 @@ public class TableNotCreatedException extends Exception {
      * @param action   The specific action that failed
      * @param category The specific category enum that was failed to add
      */
-    public TableNotCreatedException(exceptions.SQLTables table, exceptions.Action action, Category category) {
+    public TableNotCreatedException(SQLTables table, Action action, Category category) {
         super(PrintColors.RED_BOLD + "Failed to " + action.toString() + " " + table.getMESSAGE() + " " + category.toString() + PrintColors.ANSI_RESET);
     }
 

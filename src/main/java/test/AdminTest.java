@@ -1,12 +1,12 @@
 package test;
 
-import utils.PrintColors;
-import utils.TablePrinter;
 import beans.Company;
 import beans.Customer;
 import facades.AdminFacade;
 import login.ClientType;
 import login.LoginManager;
+import utils.PrintColors;
+import utils.TablePrinter;
 
 
 public class AdminTest {

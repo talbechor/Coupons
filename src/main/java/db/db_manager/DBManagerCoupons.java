@@ -1,6 +1,7 @@
 package db.db_manager;
 
 public class DBManagerCoupons {
+
     //Table
     public static final String CREATE_COUPONS_TABLE = "CREATE TABLE IF NOT EXISTS `coupons`.`coupons` (" +
             "  `id` INT NOT NULL AUTO_INCREMENT," +
@@ -85,4 +86,5 @@ public class DBManagerCoupons {
             " UPDATE `coupons`.`coupons` SET amount=amount-1 WHERE id=? ";
     public static final String DELETE_COUPON_PURCHASE = " DELETE FROM `coupons`.`customers_vs_coupons` " +
             "WHERE customer_id=? AND coupon_id=? ";
+
 }

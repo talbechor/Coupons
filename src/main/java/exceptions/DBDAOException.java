@@ -17,7 +17,7 @@ public class DBDAOException extends Exception {
      * @param action     The specific action that failed
      * @param clientType The specific client type whom the action was taken on
      */
-    public DBDAOException(exceptions.Action action, ClientType clientType) {
+    public DBDAOException(Action action, ClientType clientType) {
         super(PrintColors.RED_BOLD + "failed to " + action.toString() + " " + clientType.toString() + PrintColors.ANSI_RESET);
     }
 

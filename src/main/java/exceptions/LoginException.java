@@ -17,7 +17,7 @@ public class LoginException extends Exception {
      * @param action     The specific action that failed
      * @param clientType The specific client type whom the action was taken on
      */
-    public LoginException(ClientType clientType, exceptions.Action action) {
+    public LoginException(ClientType clientType, Action action) {
         super(PrintColors.RED_BOLD + clientType.toString() + " " + "Failed to " + action.toString() +
                 " please check Email / Password / Client Type " + PrintColors.ANSI_RESET);
     }

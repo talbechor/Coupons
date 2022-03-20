@@ -1,13 +1,13 @@
 package dbdao;
 
-import utils.DBTools;
+import beans.Coupon;
+import dao.CouponsDAO;
+import db.db_manager.DBManagerCoupons;
 import exceptions.Action;
 import exceptions.DBDAOException;
 import exceptions.NotExistException;
 import login.ClientType;
-import beans.Coupon;
-import dao.CouponsDAO;
-import db.db_manager.DBManagerCoupons;
+import utils.DBTools;
 
 import java.sql.ResultSet;
 import java.util.ArrayList;

@@ -1,12 +1,12 @@
 package test;
 
-import utils.PrintColors;
-import utils.TablePrinter;
 import beans.Category;
 import beans.Coupon;
 import facades.CustomerFacade;
 import login.ClientType;
 import login.LoginManager;
+import utils.PrintColors;
+import utils.TablePrinter;
 
 import java.sql.Date;
 import java.time.LocalDate;

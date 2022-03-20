@@ -1,6 +1,5 @@
 package login;
 
-import utils.PrintColors;
 import exceptions.Action;
 import exceptions.DBDAOException;
 import exceptions.LoginException;
@@ -9,6 +8,7 @@ import facades.AdminFacade;
 import facades.ClientFacade;
 import facades.CompanyFacade;
 import facades.CustomerFacade;
+import utils.PrintColors;
 
 public class LoginManager {
 

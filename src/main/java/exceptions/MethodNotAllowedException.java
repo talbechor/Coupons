@@ -15,7 +15,7 @@ public class MethodNotAllowedException extends Exception {
      *
      * @param action The specific action that failed
      */
-    public MethodNotAllowedException(exceptions.Action action) {
+    public MethodNotAllowedException(Action action) {
         super(PrintColors.RED_BOLD + "Unable to" + action + PrintColors.ANSI_RESET);
     }
 }

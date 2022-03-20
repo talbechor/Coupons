@@ -26,4 +26,5 @@ public interface CustomersDAO {
     Customer getOneCustomer(int customerId) throws DBDAOException;
 
     Customer getOneCustomer(String email, String password) throws DBDAOException;
+
 }
